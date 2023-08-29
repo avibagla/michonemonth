@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>😘</text></svg>">
+
+
+    <title>one month of mich</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://www.avibagla.com/michonemonth" />
+    <meta
+      name="description"
+      content="A special gift for my ~significant other~"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Color Clock" />
+    <meta property="og:url" content="https://www.avibagla.com/michonemonth" />
+    <meta
+      property="og:description"
+      content="A special gift for my ~significant other~"
+    />
+    <meta
+      property="og:image"
+      content="https://www.avibagla.com/michonemonth/us.jpg"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous">
+    </script>
+    <!-- Import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+
+    <!-- The wrapper and content divs set margins and positioning -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <!-- This is the start of content for our page -->
+        <h1 class="title">who ARE you?</h1>
+
+<!--         <img
+          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
+          class="illustration"
+          alt="Editor illustration"
+          title="Click the image!"
+        /> -->
+        <!-- Instructions on using this project -->
+        <div class="instructions">
+          <h2>
+            So we met a month ago...
+          </h2>
+
+          <div class="image-container">
+            <img class="top-image" src="us.jpg" alt="the two of us">
+
+          </div>
+
+          <p>
+            Look, if you couldn't tell, I'm like, really into you? And everything you are? Like you?? LIKE ME??? I know
+            you love crosswords, so I thought for the end of the month that's been a year, I'd make you a NYT style crossword you'd 
+            enjoy, love, and play for a little bit. Wonder if you can figure out the theme.  
+            <br><br>
+            It IS the first crossword I have ever made though. So um, forgive me if its too easy or too hard.
+            <br><br>
+            Also, I know we're avoiding the words, but I feel like this might say it more than saying it ever could, heh. 
+            <br> <br>
+          </p>
+          <!-- ADD BUTTON HERE -->
+          <!-- Include the CryptoJS library for hashing the user id before sending it to the PuzzleMe server. -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+          <!-- Include the javascript library for embedding this puzzle. -->
+          <script id="pm-script" src="https://amuselabs.com/pmm/js/puzzleme-embed.js"></script>
+          <!-- Specify the Amuse Labs server name from where the puzzles will be served -->
+          <script>
+            PM_Config.PM_BasePath = "https://amuselabs.com/pmm/";
+          </script>
+          <!-- Specifies the puzzle to be embedded on the page. If you want to render multiple games on your page then you can copy paste it multiple times. -->
+          <div class="pm-embed-div" data-id="2ff7b058" data-set="db38d59fc9b911f841a0d7874977cd19d21512048b43cda4527d372ca4521ed8"
+            data-puzzleType="crossword" data-height="700px"></div>
+
+          <!-- Once you've added the button from the readme, click it in the page -->
+          <!-- Check out the function in script.js to see how it works -->
+        </div>
+      </div>
+    </div>
+    <!-- The footer holds our remix button — you can use it for structure or cut it out ✂ -->
+    <footer class="footer">
+      <p>made by <a href="//www.avibagla.com" target="_blank"> Avi Bagla</a></p>
+    </footer>
+  </body>
+</html>
